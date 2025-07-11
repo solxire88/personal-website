@@ -1,4 +1,65 @@
 @import "tailwindcss";
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(:not(.dark, .dark *) &));
+
+
+
+@keyframes spin-custom {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow{
+  animation: spin-custom 20s linear infinite;
+}
+
+@layer components {
+  .bg-noise::before {
+    content: "";
+    @apply absolute inset-0 pointer-events-none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 182px;
+    opacity: 0.12;
+  }
+}
+
+@layer base {
+  /* Sabon – serif */
+  @font-face {
+    font-family: "Sabon";
+    src: url("/fonts/SabonRegular.ttf"); 
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Sabon";
+    src: url("/fonts/SabonBold.ttf") ;
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  /* Coolvetica – sans-serif */
+  @font-face {
+   font-family: "Coolvetica";
+    src: url("/fonts/Coolvetica Rg.otf") ;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  @font-face {
+   font-family: "Grotesk";
+    src: url("/fonts/NeueHaasDisplayMediu.ttf") ;
+    font-weight: 800;
+    font-display: swap;
+  }
+}
+
 
 :root {
   --background: #ffffff;
@@ -8,19 +69,24 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Grotesk";
+  --font-serif: "Sabon";
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #1e1e1e;
   }
+}
+
+html.dark {
+  --background: #1e1e1e;
+  --foreground: #ededed;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Coolvetica, Sabon; */
 }

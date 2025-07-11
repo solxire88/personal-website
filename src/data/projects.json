@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "title": "Study Sphere",
+        "url": "https://github.com/solxire88/study-sphere",
+        "tools": [
+            "Django",
+            "React",
+            "Tailwind CSS",
+            "Huggingface Transformers",
+            "OpenAI API"
+        ],
+        "field": [
+            "Web Development",
+            "Education Platform"
+        ],
+        "about": "A secure platform where educators share course materials, quizzes, and AI‑powered support, and students track progress and engage in real time.",
+        "images": [
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Login.png",
+                "alt": "Login"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/ExploreClasses.png",
+                "alt": "Explore Classes"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/EducatorDashboard.png",
+                "alt": "Educator Dashboard"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/ClassDetails.png",
+                "alt": "Class Details"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Restaurant POS",
+        "url": "https://github.com/solxire88/restaurant-pos",
+        "tools": [
+            "Electron.js",
+            "React",
+            "lowdb"
+        ],
+        "field": [
+            "Point of Sale System",
+            "Desktop Application"
+        ],
+        "about": "This Point‑of‑Sale project is a desktop application designed for both takeaway and table service: in a single click it prints customer receipts, kitchen and table tickets, plus fully customizable slips like a “Pizzario” ticket; it logs every sale so you can review your entire history at any time, includes a built‑in accounting module to track revenue and costs, and lets you configure one or two printers in the settings for front‑ and back‑of‑house workflows—all wrapped in a clean, modern UI optimized for lightning‑fast order entry and printing.",
+        "images": [
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posHome.png",
+                "alt": "Point of Sale Home"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posTakeaway.png",
+                "alt": "Point of Sale Takeaway"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posTable.png",
+                "alt": "Point of Sale Table Service"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posAccountant.png",
+                "alt": "Point of Sale Accountant"
+            }
+        ]
+    }
+]
