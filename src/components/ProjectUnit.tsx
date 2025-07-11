@@ -10,7 +10,6 @@ export default function ProjectUnit({ id, projectTitle, url, tools, images, fiel
     const openLightbox = (src: string) => setLightboxSrc(src)
     const closeLightbox = () => setLightboxSrc(null)
 
-    console.log(url)
 
     return (
         <div className='py-20'>
@@ -102,13 +101,15 @@ export default function ProjectUnit({ id, projectTitle, url, tools, images, fiel
                             viewport={{ once: true, amount: 0.5 }}
                             transition={{ delay: i * 0.15 + 0.3, duration: 0.5, ease: 'easeInOut' }}
                             key={Math.random()} className="col-span-1 w-full h-auto flex flex-col justify-start gap-2" onClick={() => openLightbox(img.url)}>
-                            <motion.img
-                                whileHover={{ scale: 1.05 }}
-                                className="w-full h-auto" src={img.url} alt={img.alt} />
+                            <picture>
+                                <motion.img
+                                    whileHover={{ scale: 1.05 }}
+                                    className="w-full h-auto" src={img.url} alt={img.alt} />
+                            </picture>
                             <p className="text-xs text-start opacity-50 tracking-tight">{img.alt}</p>
                         </motion.div>
                     ))}
             </div>
-        </ div>
+        </ div >
     )
 }
