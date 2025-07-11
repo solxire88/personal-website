@@ -8,7 +8,7 @@ export default function Projects() {
 
 
     return (
-        <div className='min-h-screen'>
+        <div id='projects' className='min-h-screen'>
             <motion.h1
                 initial={{ y: 100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export default function Hero() {
 
     return (
-        <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 gap-8 text-lg min-h-screen items-center pt-20 md:pt-40">
+        <div id='home' className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 gap-8 text-lg min-h-screen items-center pt-20 md:pt-40">
             <motion.div
                 initial={{ x: -200, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}

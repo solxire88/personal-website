@@ -13,9 +13,9 @@ export default function Navbar() {
 
     return (
         <div className="grid grid-cols-4 gap-8 text-sm py-2">
-            <div><button>Home</button></div>
-            <div><button>Work</button></div>
-            <div><button>About</button></div>
+            <div><button ><a href="#home" >Home</a></button></div>
+            <div><button><a href="#projects">Work</a></button></div>
+            <div><button><a href="#about">About</a></button></div>
 
             {/* until mounted, render a placeholder so server vs client HTML matches */}
             <div>

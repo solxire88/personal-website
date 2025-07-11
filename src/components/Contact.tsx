@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 export default function Contact() {
     return (
         <div
+            id='contact'
             className='grid grid-cols-1 md:grid-cols-2 '>
             <motion.h1
                 initial={{ opacity: 0, y: 20 }}
