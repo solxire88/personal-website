@@ -8,13 +8,15 @@ export default function Hero() {
             <motion.div
                 initial={{ x: -200, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1.5, ease: 'easeInOut' }}
                 className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl text-3xl font-serif font-bold items-center '>
                 Chementel Naoufel <br /> "solxire."
             </motion.div>
             <motion.div
-                initial={{ x: 200, opacity: 0 }}
+                initial={{ x: 200, opacity: 0, }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1.5, ease: 'easeInOut' }}
                 className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl  text-3xl font-serif font-bold items-center'>Building Applications & Manipulating Data</motion.div>
             <div className='col-span-2 text-4xl font-serif font-bold items-center'></div>
