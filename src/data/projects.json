@@ -1,6 +1,45 @@
 [
     {
         "id": 0,
+        "title": "Real Estate Market Analytics",
+        "url": "https://github.com/solxire88/algeria-housing-scraper-analysis",
+        "tools": [
+            "Pandas",
+            "Requests",
+            "Power BI",
+            "Jupyter Notebook",
+            "GraphQL"
+        ],
+        "field": [
+            "Data Analysis",
+            "Web Scraping"
+        ],
+        "about": "A comprehensive data pipeline that scrapes real estate listings from OuedKniss, processes and cleans the data, and provides interactive Power BI dashboards for analyzing the Algerian property market trends, pricing, and geographic distribution.",
+        "images": [
+            {
+                "url": "screenshots/dashboard_overview.png",
+                "alt": "Main Dashboard Overview"
+            },
+            {
+                "url": "screenshots/price_analysis.png",
+                "alt": "Price Analysis by Region"
+            },
+            {
+                "url": "screenshots/property_types.png",
+                "alt": "Property Type Distribution"
+            },
+            {
+                "url": "screenshots/market_trends.png",
+                "alt": "Market Trends Over Time"
+            },
+            {
+                "url": "screenshots/geographic_analysis.png",
+                "alt": "Geographic Analysis Dashboard"
+            }
+        ]
+    },
+    {
+        "id": 1,
         "title": "Study Sphere",
         "url": "https://github.com/solxire88/study-sphere",
         "tools": [
@@ -35,7 +74,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Restaurant POS",
         "url": "https://github.com/solxire88/restaurant-pos",
         "tools": [
