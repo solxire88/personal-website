@@ -17,24 +17,20 @@
         "about": "A comprehensive data pipeline that scrapes real estate listings from OuedKniss, processes and cleans the data, and provides interactive Power BI dashboards for analyzing the Algerian property market trends, pricing, and geographic distribution.",
         "images": [
             {
-                "url": "screenshots/dashboard_overview.png",
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject.png",
                 "alt": "Main Dashboard Overview"
             },
             {
-                "url": "screenshots/price_analysis.png",
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject2.png",
                 "alt": "Price Analysis by Region"
             },
             {
-                "url": "screenshots/property_types.png",
-                "alt": "Property Type Distribution"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject3.png",
+                "alt": "Price Distribution"
             },
             {
-                "url": "screenshots/market_trends.png",
-                "alt": "Market Trends Over Time"
-            },
-            {
-                "url": "screenshots/geographic_analysis.png",
-                "alt": "Geographic Analysis Dashboard"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject4.png",
+                "alt": "Scatter Analysis"
             }
         ]
     },
