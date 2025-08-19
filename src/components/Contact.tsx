@@ -18,7 +18,7 @@ export default function Contact() {
                 transition={{ duration: 0.6 }}
                 className="flex flex-col justify-center items-start ">
                 <p className='text-sm opacity-50'> Email </p>
-                <p className='text-sm '>n.chementel88@gmail.com</p>
+                <p className='text-sm '>n.chementel@esi-sba.dz</p>
             </motion.div>
         </div>
     )

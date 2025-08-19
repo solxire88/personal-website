@@ -1,41 +1,72 @@
 [
     {
         "id": 0,
-        "title": "Real Estate Market Analytics",
-        "url": "https://github.com/solxire88/algeria-housing-scraper-analysis",
+        "title": "Forecasting Food Prices in Algeria: A Macro-Micro Analytical Approach",
+        "url": "https://github.com/solxire88/algerian-food-pricing",
         "tools": [
             "Pandas",
-            "Requests",
-            "Power BI",
-            "Jupyter Notebook",
-            "GraphQL"
+            "NumPy",
+            "Matplotlib",
+            "Jupyter Notebook"
         ],
         "field": [
             "Data Analysis",
-            "Web Scraping"
+            "Economics"
         ],
-        "about": "A comprehensive data pipeline that scrapes real estate listings from OuedKniss, processes and cleans the data, and provides interactive Power BI dashboards for analyzing the Algerian property market trends, pricing, and geographic distribution.",
+        "about": "Combines monthly local market price data for staple commodities (2015–2025) with national macroeconomic indicators (2014–2023) to diagnose drivers of food inflation in Algeria. The project aligns commodity-level time series with annual indicators (food production index, exchange rates, imports/exports) and applies exploratory analysis, econometric modeling and forecasting to provide policy-relevant insights and early-warning signals for price spikes.",
         "images": [
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject.png",
-                "alt": "Main Dashboard Overview"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/FoodPricesCommodities.png",
+                "alt": "Price trends across key commodities"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject2.png",
-                "alt": "Price Analysis by Region"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Goods.png",
+                "alt": "Imports and exports vs local prices"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject3.png",
-                "alt": "Price Distribution"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/FoodInsecurity.png",
+                "alt": "Food Insecurity"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/RealEstateProject4.png",
-                "alt": "Scatter Analysis"
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Inflation.png",
+                "alt": "Exchange rate vs food price index"
             }
         ]
     },
     {
         "id": 1,
+        "title": "Algerian Real Estate Market Analytics",
+        "url": "https://github.com/solxire88/algeria-housing-scraper-analysis",
+        "tools": [
+            "Pandas",
+            "Requests",
+            "Tableau",
+            "Jupyter Notebook",
+            "GraphQL"
+        ],
+        "field": [
+            "Data Analysis",
+            "Web Scraping",
+            "Marketing"
+        ],
+        "about": "This project delivers actionable insights into the Algerian real estate market through a combination of data analysis and visualization. By examining scraped listings from OuedKniss, it highlights supply concentration, pricing competitiveness, and regional coverage gaps across Wilayas. The findings are presented in interactive Tableau dashboards, enabling stakeholders to better understand market dynamics and make informed, data-driven marketing and investment decisions.",
+        "images": [
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash1.png",
+                "alt": "Main Dashboard Overview"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash2.png",
+                "alt": "Price Competitiveness"
+            },
+            {
+                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash3.png",
+                "alt": "Wilaya Coverage"
+            }
+        ]
+    },
+    {
+        "id": 2,
         "title": "Study Sphere",
         "url": "https://github.com/solxire88/study-sphere",
         "tools": [
@@ -70,7 +101,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Restaurant POS",
         "url": "https://github.com/solxire88/restaurant-pos",
         "tools": [

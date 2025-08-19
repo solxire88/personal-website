@@ -19,7 +19,7 @@ export default function About() {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6 }}
                     className=" col-span-2 md:col-span-2 lg:col-span-2 text-2xl leading-tight lg:pr-25 row-span-2 items-center flex lg:text-justify text-center justify-center  " >
-                    I'm a software developer and data scientist who loves design. I co-founded Pelorus and Literature & Science Bookshelf. I speak English, French, and Arabic, and enjoy working on meaningful ideas.
+                    I'm a data analyst & software developer who is passionate about design. I co-founded Pelorus and Literature & Science Bookshelf. I speak English, French, and Arabic, and enjoy driving meaningful insights from data.
                 </motion.div>
 
                 <motion.div
