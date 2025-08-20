@@ -18,7 +18,7 @@ export default function Hero() {
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1.5, ease: 'easeInOut' }}
-                className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl  text-3xl font-serif font-bold items-center'>Data Analyst & Web Developer</motion.div>
+                className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl  text-3xl font-serif font-bold items-center'>Data Analyst & Software Developer</motion.div>
             <div className='col-span-2 text-4xl font-serif font-bold items-center'></div>
             <div className='col-span-1 text-lg font-sans font-bold flex gap-3 align-center justify-end md:justify-start py-0 md:py-25'>
                 <motion.a
