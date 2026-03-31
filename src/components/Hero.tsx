@@ -18,7 +18,7 @@ export default function Hero() {
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1.5, ease: 'easeInOut' }}
-                className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl  text-3xl font-serif font-bold items-center'>Data Analyst & Software Developer</motion.div>
+                className='col-span-2 lg:text-4xl md:text-4xl sm:text-3xl  text-3xl font-serif font-bold items-center'>Data Engineer & Software Developer</motion.div>
             <div className='col-span-2 text-4xl font-serif font-bold items-center'></div>
             <div className='col-span-1 text-lg font-sans font-bold flex gap-3 align-center justify-end md:justify-start py-0 md:py-25'>
                 <motion.a
@@ -41,6 +41,17 @@ export default function Hero() {
                     <motion.div whileHover={{ scale: 1.1 }}
                     >
                         LinkedIn
+                    </motion.div>
+                </motion.a>
+                <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 1.4, duration: 0.5 }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href='https://www.instagram.com/solxire.dev/' className='text-right md:text-left tracking-tight h-5'>
+                    <motion.div whileHover={{ scale: 1.1 }}>
+                        Instagram
                     </motion.div>
                 </motion.a>
 

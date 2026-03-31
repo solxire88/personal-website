@@ -1,6 +1,7 @@
 'use client'
 import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
+import Services from "@/components/Services"
 import Projects from "@/components/Projects"
 import About from "@/components/About"
 import Contact from "@/components/Contact"
@@ -12,10 +13,13 @@ export default function Home() {
             <div className="flex flex-col mx-8 ">
                 <Navbar />
                 <Hero />
-                <Projects />
-                <About />
-                <Contact />
-                <Sun />
+                <Services />
+                <div className="flex flex-col gap-24 md:gap-32 lg:gap-40">
+                    <Projects />
+                    <About />
+                    <Contact />
+                    <Sun />
+                </div>
             </div>
         </div>
     );

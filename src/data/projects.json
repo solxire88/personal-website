@@ -3,6 +3,7 @@
         "id": 0,
         "title": "Forecasting Food Prices in Algeria: A Macro-Micro Analytical Approach",
         "url": "https://github.com/solxire88/algerian-food-pricing",
+        "category": "data",
         "tools": [
             "Pandas",
             "NumPy",
@@ -16,19 +17,19 @@
         "about": "Combines monthly local market price data for staple commodities (2015–2025) with national macroeconomic indicators (2014–2023) to diagnose drivers of food inflation in Algeria. The project aligns commodity-level time series with annual indicators (food production index, exchange rates, imports/exports) and applies exploratory analysis, econometric modeling and forecasting to provide policy-relevant insights and early-warning signals for price spikes.",
         "images": [
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/FoodPricesCommodities.png",
+                "url": "/images/FoodPricesCommodities.png",
                 "alt": "Price trends across key commodities"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Goods.png",
+                "url": "/images/Goods.png",
                 "alt": "Imports and exports vs local prices"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/FoodInsecurity.png",
+                "url": "/images/FoodInsecurity.png",
                 "alt": "Food Insecurity"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Inflation.png",
+                "url": "/images/Inflation.png",
                 "alt": "Exchange rate vs food price index"
             }
         ]
@@ -37,6 +38,7 @@
         "id": 1,
         "title": "Algerian Real Estate Market Analytics",
         "url": "https://github.com/solxire88/algeria-housing-scraper-analysis",
+        "category": "data",
         "tools": [
             "Pandas",
             "Requests",
@@ -52,16 +54,80 @@
         "about": "This project delivers actionable insights into the Algerian real estate market through a combination of data analysis and visualization. By examining scraped listings from OuedKniss, it highlights supply concentration, pricing competitiveness, and regional coverage gaps across Wilayas. The findings are presented in interactive Tableau dashboards, enabling stakeholders to better understand market dynamics and make informed, data-driven marketing and investment decisions.",
         "images": [
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash1.png",
+                "url": "/images/dash1.png",
                 "alt": "Main Dashboard Overview"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash2.png",
+                "url": "/images/dash2.png",
                 "alt": "Price Competitiveness"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/dash3.png",
+                "url": "/images/dash3.png",
                 "alt": "Wilaya Coverage"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Open Source CRM",
+        "url": "https://github.com/solxire88/open-source-crm",
+        "category": "data",
+        "tools": [
+            "Next.js",
+            "Supabase"
+        ],
+        "field": [
+            "CRM",
+            "Lead Management"
+        ],
+        "about": "An open-source CRM built with Next.js and Supabase, with multi-tenant auth, permissioned lead tables, pipeline and follow-up views, imports and exports, analytics, admin tooling, and RLS-backed access control. You can clone it and use it for your team.",
+        "images": [
+            {
+                "url": "/images/Analytics%20Page.png",
+                "alt": "Analytics dashboard"
+            },
+            {
+                "url": "/images/Pipeline%20Page.png",
+                "alt": "Pipeline view"
+            },
+            {
+                "url": "/images/Tables%20page.png",
+                "alt": "Table workspace"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Zaki Mode",
+        "url": "https://zakimode.com",
+        "category": "dev",
+        "tools": [
+            "Next.js",
+            "Tailwind CSS",
+            "Django",
+            "PostgreSQL"
+        ],
+        "field": [
+            "E-commerce",
+            "Web Development"
+        ],
+        "about": "A modern minimal clothing shop for a client, with product and stock management, promotions, accounting, analytics, and featured products on the home page.",
+        "images": [
+            {
+                "url": "/images/ecomHero.png",
+                "alt": "E-commerce home page"
+            },
+            {
+                "url": "/images/ecomProduct.png",
+                "alt": "Product management"
+            },
+            {
+                "url": "/images/ecomStock.png",
+                "alt": "Stock management"
+            },
+            {
+                "url": "/images/ecomAnalytics.png",
+                "alt": "Sales analytics"
             }
         ]
     },
@@ -69,6 +135,7 @@
         "id": 2,
         "title": "Study Sphere",
         "url": "https://github.com/solxire88/study-sphere",
+        "category": "dev",
         "tools": [
             "Django",
             "React",
@@ -83,19 +150,19 @@
         "about": "A secure platform where educators share course materials, quizzes, and AI‑powered support, and students track progress and engage in real time.",
         "images": [
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Login.png",
+                "url": "/images/Login.png",
                 "alt": "Login"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Explore%20Classes2.png",
+                "url": "/images/Explore%20Classes2.png",
                 "alt": "Explore Classes"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Educator%20Dashboard2.png",
+                "url": "/images/Educator%20Dashboard2.png",
                 "alt": "Educator Dashboard"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/Class%20Details2.png",
+                "url": "/images/Class%20Details2.png",
                 "alt": "Class Details"
             }
         ]
@@ -104,6 +171,7 @@
         "id": 3,
         "title": "Restaurant POS",
         "url": "https://github.com/solxire88/restaurant-pos",
+        "category": "dev",
         "tools": [
             "Electron.js",
             "React",
@@ -116,19 +184,19 @@
         "about": "This Point‑of‑Sale project is a desktop application designed for both takeaway and table service: in a single click it prints customer receipts, kitchen and table tickets, plus fully customizable slips like a “Pizzario” ticket; it logs every sale so you can review your entire history at any time, includes a built‑in accounting module to track revenue and costs, and lets you configure one or two printers in the settings for front‑ and back‑of‑house workflows—all wrapped in a clean, modern UI optimized for lightning‑fast order entry and printing.",
         "images": [
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posHome.png",
+                "url": "/images/posHome.png",
                 "alt": "Point of Sale Home"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posTakeaway.png",
+                "url": "/images/posTakeaway.png",
                 "alt": "Point of Sale Takeaway"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posTable.png",
+                "url": "/images/posTable.png",
                 "alt": "Point of Sale Table Service"
             },
             {
-                "url": "https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/posAccountant.png",
+                "url": "/images/posAccountant.png",
                 "alt": "Point of Sale Accountant"
             }
         ]

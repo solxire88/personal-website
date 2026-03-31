@@ -9,6 +9,7 @@ export default function ProjectUnit({ id, projectTitle, url, tools, images, fiel
 
     const openLightbox = (src: string) => setLightboxSrc(src)
     const closeLightbox = () => setLightboxSrc(null)
+    const titleClasses = 'md:text-3xl text-xl text-center font-bold opacity-80 hover:opacity-69 tracking-tight'
 
 
     return (
@@ -27,18 +28,31 @@ export default function ProjectUnit({ id, projectTitle, url, tools, images, fiel
                 </div>
             )}
             <div className="flex justify-between ">
-                <motion.a
-                    initial={{ x: 0, opacity: 0 }}
-                    whileInView={{ x: 0, opacity: 0.8 }}
-                    viewport={{ once: true, amount: 0.5 }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    transition={{ duration: 0.75, ease: 'easeInOut' }}
-                    whileHover={{ opacity: 0.5 }}
-                    className='md:text-3xl text-xl text-center font-bold opacity-80 hover:opacity-69 tracking-tight'
-                    href={url}
-
-                >{projectTitle}</motion.a>
+                {url ? (
+                    <motion.a
+                        initial={{ x: 0, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 0.8 }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        transition={{ duration: 0.75, ease: 'easeInOut' }}
+                        whileHover={{ opacity: 0.5 }}
+                        className={titleClasses}
+                        href={url}
+                    >
+                        {projectTitle}
+                    </motion.a>
+                ) : (
+                    <motion.div
+                        initial={{ x: 0, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 0.8 }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 0.75, ease: 'easeInOut' }}
+                        className={titleClasses}
+                    >
+                        {projectTitle}
+                    </motion.div>
+                )}
                 <motion.div
                     initial={{ x: 0, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 0.8 }}
@@ -87,29 +101,26 @@ export default function ProjectUnit({ id, projectTitle, url, tools, images, fiel
                 </motion.div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 py-16">
-                {/* <div className="col-span-1 w-full h-auto flex flex-col justify-start gap-2"> */}
-                {/*     <img className="w-full h-auto" src={imgObject} alt="Image 1" /> */}
-                {/*     <p className="text-center">Image 1</p> */}
-                {/* </div> */}
-
-                {images.map(
-                    (img: any, i: number) => (
-                        <motion.div
-                            initial={{ y: 20, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            viewport={{ once: true, amount: 0.5 }}
-                            transition={{ delay: i * 0.15 + 0.3, duration: 0.5, ease: 'easeInOut' }}
-                            key={Math.random()} className="col-span-1 w-full h-auto flex flex-col justify-start gap-2" onClick={() => openLightbox(img.url)}>
-                            <picture>
-                                <motion.img
-                                    whileHover={{ scale: 1.05 }}
-                                    className="w-full h-auto" src={img.url} alt={img.alt} />
-                            </picture>
-                            <p className="text-xs text-start opacity-50 tracking-tight">{img.alt}</p>
-                        </motion.div>
-                    ))}
-            </div>
+            {images.length > 0 && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 py-16">
+                    {images.map(
+                        (img: any, i: number) => (
+                            <motion.div
+                                initial={{ y: 20, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                viewport={{ once: true, amount: 0.5 }}
+                                transition={{ delay: i * 0.15 + 0.3, duration: 0.5, ease: 'easeInOut' }}
+                                key={Math.random()} className="col-span-1 w-full h-auto flex flex-col justify-start gap-2" onClick={() => openLightbox(img.url)}>
+                                <picture>
+                                    <motion.img
+                                        whileHover={{ scale: 1.05 }}
+                                        className="w-full h-auto" src={img.url} alt={img.alt} />
+                                </picture>
+                                <p className="text-xs text-start opacity-50 tracking-tight">{img.alt}</p>
+                            </motion.div>
+                        ))}
+                </div>
+            )}
         </ div >
     )
 }

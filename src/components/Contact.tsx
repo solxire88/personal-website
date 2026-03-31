@@ -19,6 +19,24 @@ export default function Contact() {
                 className="flex flex-col justify-center items-start ">
                 <p className='text-sm opacity-50'> Email </p>
                 <p className='text-sm '>n.chementel@esi-sba.dz</p>
+                <p className='text-sm opacity-50 pt-4'> Phone </p>
+                <a
+                    href='https://wa.me/213792055954'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-sm '
+                >
+                    +213 792 05 59 54
+                </a>
+                <p className='text-sm opacity-50 pt-4'> Instagram</p>
+                <a
+                    href='https://www.instagram.com/solxire.dev/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-sm '
+                >
+                    @solxire.dev
+                </a>
             </motion.div>
         </div>
     )

@@ -15,14 +15,14 @@ export default function Sun() {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.6 }}
-                        className='animate-spin-slow dark:hidden' src="https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/sunblack.svg" ></motion.img>
+                        className='animate-spin-slow dark:hidden' src="/images/sunblack.svg" ></motion.img>
                 </picture>
                 <picture>
                     <motion.img
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.6 }}
-                        className='animate-spin-slow light:hidden' src="https://tntaizamsozuvsaecpsl.supabase.co/storage/v1/object/public/portfolio/images/sunwhite.svg" ></motion.img>
+                        className='animate-spin-slow light:hidden' src="/images/sunwhite.svg" ></motion.img>
                 </picture>
             </motion.div>
             <motion.div
