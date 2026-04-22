@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 export default function Projects() {
     const projectList = projects as Project[]
-    const [activeTab, setActiveTab] = useState<Project['category']>('dev')
+    const [activeTab, setActiveTab] = useState<Project['category']>('data')
     const filteredProjects = projectList.filter(
         (project) => project.category === activeTab
     )
